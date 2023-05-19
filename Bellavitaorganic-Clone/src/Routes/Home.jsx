@@ -150,6 +150,8 @@ export default function Home() {
             </div>
             <Headline text={"IN THE SPOTLIGHT"} />
             <div id="SpotLight">
+                {/*carousel*/}
+                
                 <SameCarousel items={spotLight} />
             </div>
             <Headline text={"FIND SOLUTIONS FOR"} />
